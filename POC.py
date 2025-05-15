@@ -50,4 +50,4 @@ result_time = result_time[result_time["Sector"].isin(list_sector)].reset_index(d
 # print(result_time)
 path=r"D:\Data/stock_data.csv"
 result_time.to_csv(path,header=True)
-print("data has been written successfully")
+print("data is written successfully")
